@@ -19,22 +19,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P08-Pe-CER" customClass="FableView" customModule="Fable">
-                                <rect key="frame" x="57" y="198" width="300" height="500"/>
+                                <rect key="frame" x="17" y="118" width="380" height="660"/>
                                 <color key="backgroundColor" red="1" green="0.41568627450000001" blue="0.76078431369999999" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="Xbd-fp-kYi"/>
-                                    <constraint firstAttribute="height" constant="500" id="p5e-Lo-LEL"/>
+                                    <constraint firstAttribute="width" constant="380" id="Xbd-fp-kYi"/>
+                                    <constraint firstAttribute="height" constant="660" id="p5e-Lo-LEL"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SF8-9j-bd7">
-                                <rect key="frame" x="91.5" y="748" width="31" height="30"/>
+                                <rect key="frame" x="91.5" y="828" width="31" height="30"/>
                                 <state key="normal" title="左滑"/>
                                 <connections>
                                     <action selector="sw:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wJg-Fw-iPB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4E-se-hK1">
-                                <rect key="frame" x="291.5" y="748" width="31" height="30"/>
+                                <rect key="frame" x="291.5" y="828" width="31" height="30"/>
                                 <state key="normal" title="右滑"/>
                                 <connections>
                                     <action selector="sr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GY5-Qp-y6C"/>
